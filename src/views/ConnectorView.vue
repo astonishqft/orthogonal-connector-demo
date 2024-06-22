@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
 import * as zrender from 'zrender'
-import Connector from '@qftjs/orthogonal-connector'
-import type { Rectangle } from '@qftjs/orthogonal-connector/dist/src/helpers/Rectangle'
+import Connector from '../orthogonal-connector/src'
+import type { Rectangle } from '../orthogonal-connector/src/helpers/Rectangle'
 
 interface IPoint {
   x: number
